@@ -13,9 +13,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        myBlue: "#0A2B3",
+        myBlue: "#0A32B3",
         myPink: "#BD365D",
-      }
+      },
+      backgroundImage: (theme) => ( {
+        pattern: "url('/src/assets/background.png')"
+      })
     },
   },
   plugins: [],
