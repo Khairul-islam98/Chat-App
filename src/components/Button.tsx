@@ -16,7 +16,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={`py-2 px-9 rounded-full flex justify-center gap-2  text-white border-2 border-white hover:bg-myPink transition-all hover:drop-shadow-lg ${secondary ? "bg-myPink" : "bg-myBlue"} ${className} ${loading && 'cursor-wait'}`}
+      className={`py-2 px-9 rounded-full  flex justify-center items-center gap-2  text-white border-2 border-white hover:bg-myPink transition-all hover:drop-shadow-lg ${secondary ? "bg-myPink" : "bg-myBlue"} ${className} ${loading && 'cursor-wait'}`}
       onClick={onclick}
       disabled={loading}
     >
